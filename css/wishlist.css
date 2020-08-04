@@ -1,0 +1,170 @@
+#container{
+    width: 92%;
+    margin-left: 4%;
+    height: 85%;
+    margin-top: 6%;
+    overflow: auto;display: inline-block;
+}
+
+.theWishCreate{
+    width: 20%;
+    height:55%;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;display: inline-block;
+}
+
+.theWish{
+    width: 100%;
+    height: 100%;
+}
+
+.wishContainer{
+    width: 100%;
+    height: 90%;
+    display: inline-block;
+}
+
+.wishTitle{
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+}
+.wishTitle > p{
+    text-align: center;
+}
+
+.newWish{
+    width:80%;
+    margin-left: 10%;
+    height: 90%;
+    border: 6px solid gray;
+    margin-top: 4%;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.newWish > p{
+    font-size: 75px;
+    text-align: center;
+    padding-top: 34%;
+    color: gray;
+}
+
+.newWish:hover{
+    width:85%;
+    margin-left: 7.5%;
+    height: 95%;
+    border: 6px solid gray;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.theWishOne{
+    width:80%;
+    margin-left: 10%;
+    height: 90%;
+    border: 1px solid gray;
+    margin-top: 4%;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.parteLeft{
+    width:80%;
+    height: 100%;
+    float: left;
+}
+
+.parteRight{
+    width:20%;
+    height: 100%;
+    float: left;
+}
+
+.contWish{
+    width: 35%;
+    float: left;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: red;
+}
+
+.contWish > img{
+    width: 100%;
+    height: 100%;
+}
+
+#titleWishlist{
+    width: 100%;
+    height: 15%;
+}
+
+#contWishSelec{
+    width: 100%;
+    height: 85%;
+    overflow:auto;
+}
+
+#contWishSelec::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#contWishSelec::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#contWishSelec::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+.theProodWish{
+    width: 20%;
+    height: 70%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.theProodWishImg{
+    width: 100%;
+    height: 85%;
+}
+
+.theProodWishImg > img{
+    width: 100%;
+    height: 100%;
+}
+
+.theProodWishText{
+    width: 100%;
+    height: 15%;
+}
+
+.theProodWishInfo{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.theProodWishDelete{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.theProodWishCat{
+    width: 100%;
+    height: 50%;
+}
+
+.theProodWishBrand{
+    width: 100%;
+    height: 50%;
+}

@@ -1,0 +1,1217 @@
+#storeLeft{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#storeRight{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+
+
+.ssstore{
+    width: 100%;
+    height: 90%;
+    margin-top: 9%;
+    display: inline-block;
+}
+
+.chooseStore{
+    width: 45%;
+    height: 70%;
+    margin-left: 40%;
+    margin-top: 11%;
+    border-radius: 15px;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.7);
+    opacity: 0.7;
+    transition: 0.5s;
+    border: 10px solid white;
+}
+
+.chooseStore1{
+    width: 45%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 11%;
+    border-radius: 15px;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.7);
+    opacity: 0.7;
+    transition: 0.5s;
+    border: 10px solid white;
+}
+
+.chooseStore:hover{
+    width: 50%;
+    height: 75%;
+    margin-left: 37.5%;
+    margin-top: 10%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.chooseStore1:hover{
+    width: 50%;
+    height: 75%;
+    margin-left: 12.5%;
+    margin-top: 10%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.storeimage{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.storeimage > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.headerStore{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.containerStore{
+    width: 100%;
+    height: 90%;
+    margin-top: 4.5%;
+}
+
+.optionStore{
+    width: 6%;
+    height: 100%;
+    float: left;
+}
+
+.optionCategory{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.clickCategories{
+    cursor: pointer;
+}
+
+.clickCategories:hover{
+    text-decoration: underline;
+}
+
+.optionSearch{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.optionCarrinho{
+    width: 6%;
+    height: 100%;
+    float: right;
+}
+
+.writeSearch{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.writeSearch > input{
+    display: none;
+}
+
+.writeSearch > i{
+    display: none;
+}
+
+.clickToSearch{
+    width: 20%;
+    height: 70%;
+    float: left;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.clickToSearch1{
+    width: 20%;
+    height: 70%;
+    float: left;
+    margin-top: 3%;
+    cursor: pointer;
+    display: none;
+}
+
+#cesto{
+    width: 100%;
+    height: 70%;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+#cesta{
+    width: 25%;
+    border: 1px solid black;
+    background-color: #f9fafc;
+    position: absolute;
+    margin-left: 75%;
+    display: none;
+    height: 75%;
+}
+
+#cesta > p{
+    padding-left: 10%;
+    padding-top: 7%;
+    color: black;
+    font-weight: 100;
+}
+
+#categories{
+    width: 43%;
+    height: 55%;
+    border: 1px solid black;
+    background-color: #f9fafc;
+    position: absolute;
+    margin-left: 6%;
+    display: none;
+}
+
+#parteMulher{
+    width: 47.5%;
+    height: 100%;
+    float: left;
+
+}
+
+#parteHomem{
+    width: 47.5%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+
+}
+
+.parteRoupa{
+    width: 45%;
+    height: 100%;
+    float: left;
+
+}
+
+.parteCalçado{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.parteAcessorios{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#rest{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    display: inline-block;
+    position: relative;
+}
+
+#carouselExampleIndicators{
+    width: 100%;
+    height: 100%;
+}
+
+#d{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+}
+
+#d::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#d::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#d::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+.theBrand{
+    width: 20%;
+    height: 60%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.brandImage{
+    width: 100%;
+    height: 80%;
+}
+
+.brandImage > img{
+    width: 100%;
+    height: 100%;
+}
+
+.brandText{
+    width: 100%;
+    height: 20%;
+}
+
+#categoriesProducts{
+    width:15%;
+    height: 100%;
+    float: left;
+}
+
+.theProducts2Mao{
+    width:85%;
+    height: 100%;
+    float: left;
+}
+
+.pCategorie{
+    width: 80%;
+    height: 5%;
+    margin-left: 10%;
+}
+
+.pCategorie > p{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.act{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#option00{
+    display: block;
+    overflow: auto;
+}
+
+#option00::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#option00::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#option00::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+#option01{
+    display: none;
+}
+
+#option02{
+    display: none;
+}
+
+#option03{
+    display: none;
+}
+
+#option04{
+    display: none;
+}
+
+#option05{
+    display: none;
+}
+
+#option06{
+    display: none;
+}
+
+#option07{
+    display: none;
+}
+
+#option08{
+    display: none;
+}
+
+#option09{
+    display: none;
+}
+
+#option010{
+    display: none;
+}
+
+#option011{
+    display: none;
+}
+
+#option012{
+    display: none;
+}
+
+.produc{
+    width: 29.33%;
+    height: 80%;
+    margin-left: 3%;
+    float: left;
+
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.producImage{
+    width: 100%;
+    height: 85%;
+
+}
+
+.producImage > img{
+    width: 100%;
+    height: 100%;
+}
+
+.producText{
+    width: 100%;
+    height: 15%;
+
+}
+
+.producInfo{
+    width: 80%;
+    height: 100%;
+    float: left;
+
+}
+
+.producOption{
+    width: 20%;
+    height: 100%;
+    float: left;
+
+}
+
+.producLeft{
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+.producRight{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.producTitle{
+    width: 100%;
+    height: 40%;
+}
+
+.producBrand{
+    width: 100%;
+    height: 20%;
+}
+
+.producSize{
+    width: 100%;
+    height: 30%;
+}
+
+.producPrice{
+    width: 100%;
+    height: 60%;
+}
+
+.producLocal{
+    width: 100%;
+    height: 40%;
+}
+
+#choseOption{
+    width: 100%;
+    height: 10%;
+
+}
+
+#myProductsSale{
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+}
+
+#myProductsSale::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#myProductsSale::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#myProductsSale::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+#mySales{
+    width: 100%;
+    height: 90%;
+    display: none;  
+}
+
+#myHistoricSales{
+    width: 100%;
+    height: 90%;
+    display: none;
+    overflow: auto;
+}
+
+#myHistoricSales::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#myHistoricSales::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#myHistoricSales::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+#opt{
+    width: 10%;
+    height: 100%;
+    float: left;
+    border-bottom:1px solid gray;
+    cursor: pointer;
+}
+
+#opt1{
+    width: 10%;
+    height: 100%;
+    float: left;
+    border-bottom:1px solid gray;
+    cursor: pointer;
+}
+
+#opt2{
+    width: 10%;
+    height: 100%;
+    float: left;
+    border-bottom:1px solid gray;
+    cursor: pointer;
+}
+
+#addForSale{
+    width: 20%;
+    height: 100%;
+    float: right;
+
+}
+
+.actact{
+    border-bottom: 2px solid #7478a2 !important;
+}
+
+.actact > p{
+    font-weight: 600;
+}
+
+#clickForSale{
+    width: 80%;
+    height: 50%;
+    margin-top: 7%;
+
+}
+
+#clickForSale > i{
+    float: left;
+    padding-top: 1%;
+}
+
+#clickForSale > p{
+    float: left;
+    margin-left: 5%;
+    font-size: 12px;
+}
+
+.sItem{
+    width: 90%;
+    height: 35%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+#formEsq{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+#imgDir{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+#formSaleTitle{
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    background-color: white;
+    margin-top: 2%;
+    border-radius:5px;
+    display: inline-block;
+}
+
+#formSaleDescription{
+    width: 90%;
+    height: 29%;
+    margin-left: 5%;
+    background-color: white;
+    margin-top: 2%;
+    border-radius:5px;
+    display: inline-block;
+}
+
+#formSaleOthers{
+    width: 90%;
+    height: 47%;
+    margin-left: 5%;
+    background-color: white;
+    margin-top: 2%;
+    border-radius:5px;
+    display: inline-block;
+}
+
+#divInfoProduc{
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+}
+
+#divProducSubmit{
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+}
+
+#divInfoProducImg{
+    width: 55%;
+    margin-left: 22.5%;
+    height: 70%;
+    margin-top: 17%;
+}
+
+#divInfoProducImg > img{
+    width: 100%;
+    height: 100%;
+}
+
+#divInfoProducRef{
+    width: 55%;
+    margin-left: 22.5%;
+    height: 10%;
+}
+
+#theSubmit{
+    width: 90%;
+    margin-left: 5%;
+    height: 70%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 11%;
+    display: inline-block;
+}
+
+.sItemLeft{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.sItemMiddle{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.sItemRight{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.sItemTitle{
+    width: 100%;
+    height: 30%;
+}
+
+.sItemRef{
+    width: 100%;
+    height: 40%;
+}
+
+.sItemEstati{
+    width: 100%;
+    height: 30%;
+}
+
+.estati{
+    width: 20%;
+    height: 80%;
+    background-color: #f3efef;
+}
+
+.editButton{
+    width: 40%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 50%;
+    border-radius: 5px;
+    background-color: #8ab1c6;
+}
+
+.editButton1{
+    width: 40%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 50%;
+    border-radius: 5px;
+    border: 3px solid #8ab1c6;
+}
+
+#eliminateButton{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    margin-top: 13%;
+    outline:none;
+}
+
+.clickIcon1{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(82, 114, 125, 0.1);
+    transition: 0.5s;
+    margin-bottom: 0%;
+  }
+
+  .clickIcon1 > form{
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .addwishTitle{
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .addwishTitle > p{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .addwishButtons{
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  .addwishButtons::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.addwishButtons::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.addwishButtons::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+.addwishButtons > button{
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: transparent;
+    color: #52727d;
+}
+
+#parteEsq{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#parteDir{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#parteFoto{
+    width: 60%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 23%;
+    background-color: red;
+}
+
+#parteFoto > img{
+    width: 100%;
+    height: 100%;
+}
+
+#parteTexto{
+    width: 85%;
+    height: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#parteProdTituloPreco{
+    width: 83%;
+    margin-left: 8.5%;
+    height: 10%;
+}
+
+#parteProdRef{
+    width: 83%;
+    margin-left: 8.5%;
+    height: 5%;
+}
+
+#parteProdDescr{
+    width: 83%;
+    margin-left: 8.5%;
+    height: 30%;
+    border-bottom:1px solid black;
+}
+
+#parteProdCor{
+    width: 83%;
+    margin-left: 8.5%;
+    height: 10%;
+}
+
+#parteProdTamanhoLocal{
+    width: 83%;
+    margin-left: 8.5%;
+    height: 10%;
+}
+
+#parteProdAdicCesto{
+    width: 83%;
+    margin-left: 8.5%;
+    height: 15%;
+}
+
+#parteProdOutInfo{
+    width: 83%;
+    margin-left: 8.5%;
+    height: 10%;
+}
+
+#parteProdTitle{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#parteProdPreco{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#parteProdTamanho{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#parteProdLocal{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#parteQuadCor{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#parteTextCor{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#mostraCor{
+    width: 13%;
+    height: 55%;
+    margin-top: 4%;
+    background-color: darkblue;
+    border: 1px solid black;
+}
+
+#buttonAdd{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+}
+
+#buttonCesto{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 60%;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 3%;
+}
+
+#buttonCesto1{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 60%;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 3%;
+}
+
+.cestoHeader{
+    width: 90%;
+    margin-left: 5%;
+    height: 18%;
+    border-bottom:1px solid black;
+}
+
+.cestoHeader > p{
+    padding-top: 9%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cestoContainer{
+    width: 90%;
+    margin-left: 5%;
+    height: 62%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: auto;
+}
+
+.cestoContainer::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.cestoContainer::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.cestoContainer::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+.cestoFooter{
+    width: 90%;
+    margin-left: 5%;
+    height: 18%;
+    border-top: 1px solid black;
+}
+
+.cestoFooterPrice{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.cestoFooterButton{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.itemCesto{
+    width: 100%;
+    height: 45%;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.itemCestoLeft{
+    width: 30%;
+    height: 100%;
+    float: left;
+
+}
+
+
+.itemCestoMiddle{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.itemCestoRight{
+    width: 20%;
+    height: 100%;
+    float: left;
+
+}
+
+.itemCestoImg{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.itemCestoPrice{
+    width: 100%;
+    height: 50%;
+}
+
+.itemCestoDelete{
+    width: 100%;
+    height: 15%;
+    margin-top: 57%;
+}
+
+.sItemEsq{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.sItemDir{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.enviarImg{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.enviarInfo{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.enviarDados{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.enviarSubmit{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.imgProdEnvia{
+    width: 51%;
+    height: 90%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.imgProdEnvia > img{
+    width: 100%;
+    height: 100%;
+}
+
+#listProductsTitle{
+    width: 100%;
+    height: 15%;
+}
+
+#listProductsCont{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+
+#listProductsCont::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#listProductsCont::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#listProductsCont::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+
+.thePr{
+    width: 20%;
+    height: 70%;
+    margin-left: 4%;
+    margin-top: 1%;
+    float: left;
+}
+
+.thePrImage{
+    width: 100%;
+    height: 85%;
+}
+
+.thePrImage > img {
+    width: 100%;
+    height: 100%;
+}
+
+.thePrInfo{
+    width: 100%;
+    height: 15%;
+}
+
+.thePrInfoName{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+.thePrInfoOptions{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#selectTam:hover,
+#selectTam:focus,
+#selectTam:active{
+    outline-color:black;
+}
+
+#containerSimilares{
+    width: 90%;
+    margin-left: 5%;
+    height: 95%;
+}
+
+#containerSimilaresTitle{
+    width: 100%;
+    height: 10%;
+}
+
+#containerSimilaresContainer{
+    width: 100%;
+    height: 90%;
+}
+
+#containerSimilaresContainer1{
+    width: 100%;
+    height: 100%;
+}
+
+.theProdSimilar{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.theProdSimilarImg{
+    width: 100%;
+    height: 85%;
+    display: inline-block;
+}
+
+.theProdSimilarText{
+    width: 100%;
+    height: 15%;
+}
+
+.theProdSimilarImgC{
+    width: 70%;
+    height: 90%;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.theProdSimilarImgC > img{
+    width: 100%;
+    height: 100%;
+}

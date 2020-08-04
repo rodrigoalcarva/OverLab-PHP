@@ -1,0 +1,485 @@
+#feed{
+    width:70%;
+    height: 100%;
+    float: left;
+}
+
+#chatFollowers{
+    width:30%;
+    height: 100%;
+    float: left;
+}
+
+#parteFeed{
+    width: 90%;
+    margin-left: 6%;
+    height: 83%;
+    margin-top: 9%;
+    background-color: white;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.73);
+    border-radius: 15px;
+}
+
+#parte2options{
+    width: 90%;
+    margin-left: 1%;
+    height: 15%;
+    margin-top: 21%;
+    background-color: white;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.73);
+    border-radius: 15px;
+}
+
+#parteFollowers{
+    width: 90%;
+    margin-left: 1%;
+    height: 65.5%;
+    margin-top: 4%;
+    background-color: white;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.73);
+    border-radius: 15px;
+}
+
+#titleFeed{
+    width: 100%;
+    height: 15%;
+}
+
+#feedContainer{
+    width: 100%;
+    height: 85%;
+    display: inline-block;
+    overflow: auto;
+}
+
+#feedContainer::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#feedContainer::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#feedContainer::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+#chat{
+    width: 50%;
+    height: 90%;
+    border-right: 1px solid #e4e4e4;
+    float: left;
+    margin-top: 1.5%;
+}
+
+#addPeople{
+    width: 50%;
+    height: 90%;
+    float: left;
+    margin-top: 1.5%;
+}
+
+.parteLeftOption{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.parteRightOption{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#followersTitle{
+    width: 100%;
+    height: 15%;
+}
+
+#followersContainer1{
+    width: 100%;
+    height: 85%;
+    display: inline-block;
+}
+
+#followersContainer2{
+    width: 100%;
+    height: 85%;
+    display: none;
+}
+
+#followersContainer3{
+    width: 100%;
+    height: 85%;
+    display: none;
+}
+
+.optionFollowers{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+}
+
+.accc{
+    text-decoration: underline;
+    font-weight: 600 !important;
+}
+
+.thePub{
+    width: 90%;
+    margin-left: 5%;
+    height: 40%;
+    background-color: #dfe6f0;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.person{
+    width: 80%;
+    margin-left: 10%;
+    height: 20%;
+    border-bottom:1px solid #e4e4e4;
+}
+
+.imgPerson{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.textPerson{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.buttonPerson{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.imgInside{
+    width: 51%;
+    height: 84%;
+    margin-left: 25%;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.imgInside > img{
+    width: 90%;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 90%;
+}
+
+.unfollow{
+    width: 65%;
+    height: 52%;
+    margin-top: 27%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+.unfollow:hover{
+    background-color: #dfe6f0;
+    cursor: pointer;
+}
+
+.confirmPerson{
+    width: 50%;
+    height: 40%;
+    margin-top: 5%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+.confirmPerson > img{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.confirmPerson:hover{
+    background-color: rgba(116, 225, 197,0.2);
+    cursor: pointer;
+}
+
+.cancelPerson{
+    width: 50%;
+    height: 40%;
+    margin-top: 10%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+.cancelPerson > img{
+    width: 38%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.cancelPerson:hover{
+    background-color: rgba(116, 225, 197,0.2);
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 36%;
+    height: 85%;
+    margin-top: 2%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #cont{
+      width: 100%;
+      height: 90%;
+  }
+
+  #imgCool{
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+  #imgCool > img{
+    width: 80%;
+    margin-top: 28%;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+
+  #parteAdd{
+    width: 50%;
+    height: 100%;
+    float: left;  
+  }
+    
+    .search-box{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 13%;
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .search-box input[type="text"]{
+        height: 32px;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+    }
+    .result{
+        position: absolute;        
+        z-index: 999;
+        top: 100%;
+        left: 0;
+    }
+    .search-box input[type="text"], .result{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Formatting result items */
+    .result p{
+        margin: 0;
+        padding: 7px 10px;
+        border: 1px solid #CCCCCC;
+        border-top: none;
+        cursor: pointer;
+    }
+    .result p:hover{
+        background: #f2f2f2;
+    }
+
+    #parteAddFollowerTitle{
+        width: 100%;
+        height: 15%;
+        margin-top: 31%;
+        border-bottom:1px solid #e4e4e4;
+    }
+
+    #parteAddFollowerCont{
+        width: 100%;
+        height: 45%;
+    }
+
+    .imgThePub{
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    .imgimgPub{
+        width: 60%;
+        height: 90%;
+        margin-left: 30%;
+        margin-top: 4%;
+        border-radius: 5px;
+    }
+    
+    .imgimgPub > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .infoProdThePub{
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    .infoPersonThePub{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    .infoPersonThePubText{
+        width: 100%;
+        height: 25%;
+
+    }
+
+    .infoPersonTheImg{
+        width: 100%;
+        height: 40%;
+    }
+
+    .infoPersonThePubUsername{
+        width: 100%;
+        height: 17.5%;
+
+    }
+
+    .infoPersonThePubData{
+        width: 100%;
+        height: 17.5%;
+    }
+
+    .backImgPerson{
+        width: 22%;
+        height: 90%;
+        margin-left: 39%;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 1%;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    .backImgPerson > img{
+        width: 90%;
+        border-radius: 50%;
+        margin-left: 5%;
+        margin-top: 5%;
+        height: 90%;
+    }
+
+    .addWish{
+        width: 40%;
+        height: 100%;
+        float: left;
+        display: none;
+    }
+
+    .addwishTitle{
+        display: inline-block;
+        width: 80%;
+        height: 20%;
+        margin-left: 10%;
+        margin-top: 5%;
+        background-color: white;
+        border-radius: 5px;
+      }
+    
+      .addwishTitle > p{
+        text-align: center;
+        padding-top: 4%;
+        font-size: 18px;
+        font-weight: 200;
+      }
+    
+      .addwishButtons{
+        width: 80%;
+        height: 60%;
+        margin-left: 10%;
+        margin-top: 2%;
+        background-color: white;
+        border-radius: 5px;
+        overflow: auto;
+      }
+      .addwishButtons::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #F5F5F5;
+    }
+    
+    .addwishButtons::-webkit-scrollbar
+    {
+        width: 6px;
+        background-color: #F5F5F5;
+    }
+    
+    .addwishButtons::-webkit-scrollbar-thumb
+    {
+        background-color: #000000;
+    }
+    
+    .addwishButtons > button{
+        width: 80%;
+        height: 35%;
+        margin-left: 10%;
+        margin-top: 5%;
+        border-radius: 10px;
+        background-color: #eefbff;
+        color: #52727d;
+    }

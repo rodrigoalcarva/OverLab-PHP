@@ -1,0 +1,1004 @@
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+#closet{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+#looks{
+    width: 40%;
+    height: 85%;
+    margin-top: 5.5%;
+    float: left;
+    border-left: 1px solid #52727d;
+}
+
+#menuCloset{
+    width: 20%;
+    height: 80%;
+    margin-top: 11%;
+    border-radius: 10px;
+    float: left;
+    margin-left: 2%;
+    background-color: #dfe6f0;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.73);
+}
+
+
+
+
+#theCloset{
+    width: 73%;
+    height: 80%;
+    margin-top: 11%;
+    float: left;
+    margin-left: 2%;
+    border-radius: 10px;
+    background-color: #dfe6f0;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.73);
+}
+
+.itemMenu{
+    width: 85%;
+    margin-top: 8%;
+    height: 5%;
+    margin-left: 10%;
+    transition: 1s !important;
+}
+
+
+.hItem{
+    width: 100%;
+    height: 100%;
+    font-size: 14px !important;
+    text-align: left !important;
+    cursor: pointer;
+    color: #58727d !important;
+}
+
+.hItem > p{
+    font-size: 11px;
+    transition: 0.5s;
+}
+
+.active{
+    font-weight: bold;
+    font-size: 12px !important;
+    transition: 0.5s;
+}
+
+#searchCloset{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    border-bottom: 1.5px solid #b7c5d0;
+}
+
+.theRealPart{
+    width: 100%;
+    height: 90%;
+    background-color: #dfe6f0;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+#filters{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#add{
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.theProduct{
+    width: 50%;
+    height: 71%;
+    float: left;
+    display: inline-block;
+}
+
+.theRealPart::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.theRealPart::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.theRealPart::-webkit-scrollbar-thumb
+{
+	background-color: #c2d6d6;
+}
+
+.theProductImage{
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+}
+
+.theProductInfo{
+    width: 70%;
+    height: 16%;
+    margin-left: 15%;
+    display: inline-block;
+
+}
+
+.theImage{
+    width: 70%;
+    height: 91%;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.theImage > img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: block;
+}
+
+.inf{
+    width: 80%;
+    height:66%;
+    float: left;
+}
+
+#options{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#options > i{
+    font-size: 30px;
+    margin-top: 30%;
+}
+
+
+.infTitle{
+    width: 100%;
+    height: 38%;
+}
+
+.infTitle > p{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.infInf{
+    width: 100%;
+    height: 35%;
+}
+
+.color{
+    width: 20%;
+    height: 125%;
+    margin-top: 3%;
+}
+
+.brand{
+    width: 70%;
+    height: 100%;
+}
+
+.brand > p{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.colorCircle{
+    width: 40%;
+    height: 90%;
+    border-radius: 60%;
+    border: 1px solid black;
+    margin-top: 4%;
+    background-color: blue;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 85%;
+    margin-top: 2%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #cont{
+      width: 100%;
+      height: 90%;
+  }
+
+  #imgCool{
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+
+  #imgCool > img{
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  
+  #manual{
+    width: 40%;
+    height: 100%;
+    float: left;
+  }
+
+  #automatic{
+    width: 30%;
+    height: 100%;
+    float: left;
+    border-left: 2px solid #ccdbf0;
+  }
+
+  #titleManual{
+      width: 100%;
+      height: 1%;
+      text-align: center;
+  }
+
+  #passos{
+    width: 80%;
+    margin-left: 10.5%;
+    height: 59%;
+}
+
+  #verticalEsq{
+    width: 100%;
+    height: 50%;
+    float: left;
+  }
+
+  #verticalDir{
+    width: 100%;
+    height: 50%;
+    float: left;
+  }
+
+  .passosAuto{
+    width: 65%;
+    height: 100%;
+    float: left;
+  }
+
+  .imgAuto{
+    width: 35%;
+    height: 100%;
+    float: left;
+  }
+
+  .imgAuto > img{
+    width: 100%;
+    height: 100%;
+  }
+  .autoTitle{
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+  }
+
+  .autoTitle > p{
+    margin: 0;
+    font-size: 19px;
+    margin-top: 3%;
+    font-weight: 800;
+    color: #52727d;
+  }
+
+  .paragraAuto{
+    width: 90%;
+    height: 70%;
+  }
+
+  .paragraAuto > p{
+    font-size: 12px;
+    color: #52727d;
+  }
+
+  #formRoupa{
+      width: 80%;
+      height: 30%;
+      margin-left: 10%;
+  }
+  
+  .input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 20px 0;
+    padding: 1px 0;
+    border-bottom: 2px solid #999;
+    position: relative;
+  }
+
+  #myBtn{
+    font-size: 13px !important;
+    text-align: center !important;
+    margin-left: 13% !important;
+    width: 83% !important;
+    color: white !important;
+    margin-top: 7% !important;
+    height: 60% !important;
+    border-radius: 4% !important;
+  }
+
+  #div01{
+    display: block;
+    transition: 0.5s;
+  }
+
+  #div02{
+    display: none ;
+    transition: 0.5s;
+  }
+
+  #div03{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div04{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div05{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div06{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div07{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div08{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div09{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div010{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div011{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div012{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div013{
+    display: block;
+    transition: 0.5s;
+  }
+  
+  #div014{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div015{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div016{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div017{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div018{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div019{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div020{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div021{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div022{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div023{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div024{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div025{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #div026{
+    display: none;
+    transition: 0.5s;
+  }
+
+  
+
+  #theLooks{
+    width: 90%;
+    height: 94.3%;
+    margin-top: 2.5%;
+    float: left;
+    margin-left: 4%;
+    border-radius: 10px;
+    background-color: #dfe6f0;
+    box-shadow: 0px 7px 17px -1px rgba(158,158,158,0.73);
+  }
+
+
+
+#divA{
+  width: 70%;
+  height: 100%;
+  margin-left: 15%;
+}
+
+#insideA{
+  width: 50%;
+  height: 51%;
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 13px;
+  transform: 0.5s;
+  color: #52727d;
+  cursor: pointer;
+}
+
+#insideB{
+  width: 50%;
+  height: 51%;
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 13px;
+  transform: 0.5s;
+  color: #52727d;
+  cursor: pointer;
+}
+
+.Acc{
+  font-size: 15px !important;
+  font-weight: bold;
+  margin-top: 4.5% !important;
+  border-bottom: 1px solid #52727d;
+  transform: 0.5s;
+}
+
+#theRealLook1{
+  width: 100%;
+  height: 90%;
+  background-color: #dfe6f0;
+  display: none;
+  border-radius: 10px;
+}
+
+#theRealLook2{
+  width: 100%;
+  height: 90%;
+  background-color: #dfe6f0;
+  display: none;
+  border-radius: 10px;
+}
+
+.Acc1{
+  display: inline-block !important;
+}
+
+#lookN{
+  width: 100%;
+  height: 10%;
+}
+
+#lookConstruct{
+  width: 100%;
+  height: 90%;
+}
+
+#looknText{
+  width: 25%;
+  height: 100%;
+  margin-left: 25%;
+  float: left;
+  font-size: 11px;
+  color: #52727d;
+  text-align: right;
+}
+
+#looknText > p{
+  margin-right: 5%;
+  margin-top: 15%;
+}
+
+#looknSelect{
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin-left: 37.5%;
+}
+
+
+#div3images{
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#div4images{
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#div5images{
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#div6images{
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#npecas{
+  background-color: transparent;
+  border: 0px;
+  width: 85%;
+    height: 60%;
+    margin-top: 8%;
+    font-size: 11px;
+    margin-left: 14.5%;
+}
+
+.clickIcon{
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(82, 114, 125, 0.1);
+  transition: 0.5s;
+  margin-bottom: 0%;
+}
+
+.clickIcon > form{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.ButtonOption{
+  width: 70%;
+  height: 60%;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-top: 13%;
+  display: none;
+  background-color: #eefbff;
+  color: #52727d;
+}
+
+.formLook{
+  width: 100%;
+  height: 100%;
+}
+
+.imagesClick{
+  width: 100%;
+  height: 80%;
+}
+
+.submitClick{
+  width: 100%;
+  height: 20%;
+}
+
+.divImagem3{
+  width: 30%;
+  margin-left: 2.5%;
+  height: 60%;
+  margin-top: 12%;
+  background-color: rgba(255,255,255,0.7);
+  float: left;
+}
+
+.divImagem3 > img{
+  width: 100%;
+  height: 100%;
+}
+
+.divImagem3 > input{
+  display: none;
+}
+
+.divImagem4{
+  width: 25%;
+  height: 45%;
+  float: left;
+  background-color: rgba(255,255,255,0.7);
+  margin-left: 16.5%;
+  margin-top: 2%;
+}
+
+.divImagem4 > img{
+  width: 100%;
+  height: 100%;
+}
+
+.parteCima{
+  width: 100%;
+  height: 50%;
+}
+
+.parteBaixo{
+  width: 100%;
+  height: 50%;
+}
+
+.parteCima > .divImagem5{
+  width: 25%;
+  height: 90%;
+  margin-left: 6.25%;
+  margin-top: 2%;
+  background-color: rgba(255,255,255,0.7);
+  float: left;
+}
+
+.parteBaixo > .divImagem5{
+  width: 25%;
+  height: 90%;
+  margin-left: 16.66%;
+  margin-top: 2%;
+  background-color: rgba(255,255,255,0.7);
+  float: left;
+}
+
+.divImagem5 > img{
+  width: 100%;
+  height: 100%;
+}
+
+.divImagem6{
+  width: 25%;
+  height: 90%;
+  margin-left: 6.25%;
+  margin-top: 2%;
+  background-color: rgba(255,255,255,0.7);
+  float: left;
+}
+
+.divImagem6 > img{
+  width: 100%;
+  height: 100%;
+}
+
+.divImagem4 > input{
+  display: none;
+}
+
+.divImagem5 > input{
+  display: none;
+}
+
+.divImagem6 > input{
+  display: none;
+}
+
+.ladoEsquerdo{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.ladoDireito{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.ladoEsquerdo > input{
+  width: 60%;
+  FONT-SIZE: 11px;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+.ladoEsquerdo > select{
+  margin-top: 2% !important;
+  height: 43% !important;
+  margin-left: 11% !important;
+  width: 39% !important;
+}
+
+.divType{
+  width: 70%;
+  height: 15%;
+  margin-left: 15%;
+  margin-top: 7.5%;
+  opacity: 0.7;
+}
+
+.divType:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.divType > img{
+  width: 86%;
+  height: 100%;
+  margin-left: 7%;
+}
+
+#looksDiaDia{
+  width: 100%;
+  height: 90%;
+  background-color: #dfe6f0;
+  display: none;
+}
+
+#looksFesta{
+  width: 100%;
+  height: 90%;
+  background-color: #dfe6f0;
+  display: none;
+}
+
+#looksFormal{
+  width: 100%;
+  height: 90%;
+  background-color: #dfe6f0;
+  display: none;
+}
+
+#looksDesporto{
+  width: 100%;
+  height: 90%;
+  background-color: #dfe6f0;
+  display: none;
+}
+
+.parteCimaCont{
+  width: 90%;
+  margin-left: 5%;
+  height: 15%;
+}
+
+.parteBaixoCont{
+  width: 90%;
+  margin-left: 5%;
+  height: 85%;
+  display: inline-block;
+  overflow: auto;
+}
+
+.parteVoltar{
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.parteVoltarI{
+  width: 70%;
+  height: 40%;
+  margin-left: 15%;
+  margin-top: 25%;
+  cursor: pointer;
+}
+
+.parteVoltarI > i{
+  float: left;
+  padding-top: 12%;
+}
+
+.parteVoltarI > p{
+  float: left;
+  font: 11px;
+  font-size: 12px;
+  padding-top: 11.5%;
+  margin-left: 7%;
+}
+
+.parteImagem{
+  width: 80%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.parteImagemI{
+  width: 60%;
+  height: 70%;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.parteImagemI > img{
+  width: 100%;
+  height: 100%;
+}
+
+.theLook{
+  width: 96%;
+  margin-left: 2%;
+  height: 45%;
+  background-color: #9ebed19e;
+  margin-top: 2%;
+}
+
+.nameLook{
+  width: 100%;
+  height: 10%;
+}
+
+.lookContainer{
+  width: 100%;
+  height: 90%;
+  display: inline-block;
+}
+
+.lookLook1{
+  width:15.5%;
+  margin-left:13.375%;
+  height:70%;
+  background-color:white;
+  float:left; 
+  margin-top:5%;
+}
+
+.lookLook1 > img{
+  width: 100%;
+  height: 100%;
+}
+
+.lookLook2{
+  width:15.5%;
+  margin-left:7.92%;
+  height:70%;
+  background-color:white;
+  float:left; 
+  margin-top:5%;
+}
+
+.lookLook2 > img{
+  width: 100%;
+  height: 100%;
+}
+
+.lookLook3{
+  width:15.5%;
+  margin-left:3.75%;
+  height:70%;
+  background-color:white;
+  float:left; 
+  margin-top:5%;
+}
+
+.lookLook3 > img{
+  width: 100%;
+  height: 100%;
+}
+
+.lookLook4{
+  width:15.5%;
+  margin-left:1%;
+  height:70%;
+  background-color:white;
+  float:left; 
+  margin-top:5%;
+}
+
+.lookLook4 > img{
+  width: 100%;
+  height: 100%;
+}

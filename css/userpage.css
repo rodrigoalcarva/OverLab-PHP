@@ -1,0 +1,352 @@
+
+#a{
+    width: 100%;
+    height: 58vh;
+}
+
+
+#imgUser{
+    width: 60%;
+    height: 72%;
+    margin-left: 32%;
+    border-radius: 70%;
+}
+
+  
+#imgUser > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: .5s ease;
+  }
+
+#infoImgName{
+    width: 100%;
+    height: 60%;
+}
+
+#img{
+    width: 100%;
+    height: 80%;
+}
+
+#username{
+    width: 100%;
+    height: 20%;
+}
+
+#theImage{
+    width: 65%;
+    height: 113%;
+    margin-left: 25%;
+}
+
+#theImage > h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 6%;
+}
+
+#firstCircle{
+    width: 55%;
+    height: 100%;
+    margin-left: 22.5%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 60%;
+    -webkit-box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.47);
+    box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.47);
+}
+
+#secondCircle{
+    width: 92%;
+    height: 92%;
+    border-radius: 60%;
+    background-color: red;
+    margin-left: 4%;
+    margin-top: 3.6%;
+}
+
+#secondCircle > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: .5s ease;
+  }
+
+  #otherInfo{
+    width: 100%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 1%;
+  }
+
+  #theImage1{
+    width: 55%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#theImage1 > p{
+    text-align: center;
+    color: black;
+    font-size: 11px;
+    padding-top: 7px;
+}
+
+#theImage2 > p{
+    text-align: center;
+    color: black;
+    font-size: 10px;
+    padding-top: 7px;
+}
+
+
+#theImage2{
+    width: 93%;
+    height: 20%;
+    margin-left: 10%;
+}
+
+#theImage3{
+    width: 48%;
+    height: 40%;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+.divs{
+    width: 16%;
+    margin-left: 13%;
+    height: 80%;
+    background-color: white;
+    float: left;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 8px 15px -1px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 8px 15px -1px rgba(0,0,0,0.47);
+box-shadow: 0px 8px 15px -1px rgba(0,0,0,0.47);
+}
+
+
+
+.number{
+    width: 100%;
+    height: 70%;
+}
+
+
+.number > p{
+    color: black;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-weight: 600;
+}
+
+.numberText{
+    width: 100%;
+    height: 30%;
+}
+
+.numberText > p{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+
+#menuUserpage{
+    width: 56%;
+    height: 100%;
+    float: left;
+}
+
+#titleConta{
+    width: 90%;
+    height: 5%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#titleConta > p{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.editProfileConta{
+    width: 90%;
+    height: 26%;
+    margin-left: 5%;
+    margin-bottom: 9%;
+}
+
+.editProfileContaTitle{
+    width: 100%;
+    height: 15%;
+}
+
+.editProfileContaTitle > p{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-top: 2%;
+    margin-left: 0.1%;
+}
+
+.editProfileContaContainer{
+    width: 100%;
+    height: 65%;
+    border-radius: 10px;
+}
+
+.divEditProfileContainer{
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid grey;
+}
+
+.divEditProfileContainerLeft{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.divEditProfileContainerLeft > p{
+    padding-top: 3%;
+    color: gray;
+}
+
+.divEditProfileContainerRight{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.divEditProfileContainerRight > p{
+    padding-top: 3%;
+    color: black;
+}
+
+.editProfileContaLink{
+    width: 100%;
+    height: 20%;
+}
+
+.editPremiumTop{
+    width:100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(#009999, #00b3b3, #009999);
+}
+
+.editPremiumTop > p{
+    font-size: 28px;
+    color: white;
+    padding-top: 5%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.editPremiumMiddle{
+    width:90%;
+    margin-left: 5%;
+    border-bottom: 1px solid #e5e5e5;
+    height: 25%;
+}
+
+.editPremiumMiddle > p{
+    color: black;
+    font-size: 12px;
+    padding-top: 3%;
+}
+
+.editPremiumBottom{
+    width:90%;
+    margin-left: 5%;
+    height: 25%;
+
+}
+
+.editPremiumBottom > p{
+    color: black;
+    font-size: 17px;
+    padding-top: 2.5%;
+    font-weight: bold;
+}
+
+.textHistoricSales{
+    width: 90%;
+    height: 50%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.textHistoricSales > p{
+    color: black;
+    font-size: 12px;
+    padding-top: 6%;
+}
+
+.numberHistoricSales{
+    width: 90%;
+    height: 50%;
+}
+
+.numberHistoricSales > p{
+    color: black;
+    font-size: 17px;
+    padding-top: 2.5%;
+    font-weight: bold;
+}
+
+#mysteryboxLeft{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#mysteryboxLeft > img{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+#mysteryboxRight{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.button4{
+    display: inline-block;
+    padding: 0.7em 1.8em;
+    margin: 0px 0.1em 0.1em 0;
+    text-transform: uppercase;
+    border-radius: 2em;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 3%;
+    color: gray;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+.button4:hover{
+    border: 2px solid black;
+    color: black;
+}
+@media all and (max-width:30em){
+    .button4{
+        display:block;
+        margin:0.2em auto;
+    }
+}

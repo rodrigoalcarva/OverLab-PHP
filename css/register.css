@@ -1,0 +1,278 @@
+#container{
+    width: 90%;
+    height: 85%;
+    margin-left: 5%;
+    margin-top: 5.5%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#image{
+    width: 27%;
+    height: 100%;
+    float: left;
+}
+
+#image > img{
+    width: 100%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+#file{
+  font-size: 11px;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+#register{
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    float: left;
+}
+
+#regTitle{
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+}
+
+#regTitle > h1{
+    margin: 0%;
+    margin-top: 3%;
+    margin-left: 4%;
+    color: black;
+    text-transform: none !important;
+}
+
+#regisForm{
+    width: 100%;
+    height: 83%;
+    
+}
+
+#registerForm{
+    width: 100%;
+    height: 100%;
+    margin-top: 7%;
+    display: none;
+}
+
+#registerForm1{
+  width: 100%;
+  height: 100%;
+  margin-top: 7%;
+  display: none;
+}
+
+.Active{
+  display: block !important;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.inputfile + label {
+    font-size: 1.25em;
+    color: #999;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    font-size: 1.4em;
+    transition: .3s;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.info{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.info1{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+#buttonSubmit{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+#buttonSubmit > input{
+  margin-top: 219%;
+}
+
+.info > .input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 3px 0;
+    border-bottom: 2px solid #999;
+    position: relative;
+    margin-left: 10%;
+    width: 70%;
+  }
+
+  .input-div.five > div >select{
+    width: 92%;
+    margin-left: 3%;
+  }
+
+  .input-div.five > h5{
+    font-size: 0px;
+  }
+
+  .info1 > .input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 3px 0;
+    border-bottom: 2px solid #999;
+    position: relative;
+    margin-left: 4%;
+    width: 70%;
+  }
+  
+  .input-div:after, .input-div:before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #ccdbf0;
+    transition: .3s;
+  }
+  
+  .input-div:after{
+    right: 50%;
+  }
+  
+  .input-div:before{
+    left: 50%;
+  }
+  
+  .input-div.focus .i i{
+    color: #ccdbf0;
+  }
+  
+  .input-div.one{
+    margin-top: 0;
+  }
+  
+  .input-div.focus div h5{
+    top: -5px;
+    font-size: 15px;
+  }
+  
+  
+  .input-div.focus:after, .input-div.focus:before{
+    width: 50%;
+  }
+  
+  .input-div.two{
+    margin-bottom: 3px;
+  }
+
+  .input-div.three{
+    margin-bottom: 3px;
+  }
+  .input-div.four{
+    margin-bottom: 3px;
+  }
+  .input-div.five{
+    margin-bottom: 3px;
+    margin-top: 3%;
+  }
+
+  .input-div.six{
+    margin-bottom: 3px;
+  }
+
+  .input-div.nine{
+    margin-bottom: 3px;
+  }
+  
+  
+  .i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .i i{
+    color: #999;
+    transition: .3s;
+  }
+  
+  .input-div > div{
+    position: relative;
+    height: 45px;
+  }
+  
+  .input-div > div h5{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 18px;
+    transition: .3s;
+  }
+  
+  .input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #999;
+    font-size: 0.9rem;
+    transition: .3s;
+    
+  }
+  
+  
+  a:hover{
+    color: #ccdbf0;
+  }
+
+

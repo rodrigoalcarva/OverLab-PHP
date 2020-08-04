@@ -1,0 +1,26 @@
+#logo{
+    width: 20% !important;
+    height: 100% !important;
+    float: left !important;
+}
+
+#logo > a{
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0.4%;
+}
+
+#logo > a > img{
+    float: left !important;
+    width: 64% !important;
+    margin-left: 42% !important;
+}
+
+#nav-menu-container{
+    float: right!important;
+    width: 59.5% !important;
+    height: 100% !important;
+    display: inline-block;
+    margin-top: 1.2%;
+    margin-left: -0.3%;
+}
